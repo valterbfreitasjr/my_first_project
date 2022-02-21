@@ -5,4 +5,23 @@ body{
     color: #423C3C;
     padding: 0px;
     margin: 0px;
+    background-color: rgba(244, 237, 250, 0.938);
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto /*nao funcionou*/
+}
+
+section{
+    padding: 1%;
+}
+
+p{
+    text-align: center;
+    font-size: 14px;
 }
