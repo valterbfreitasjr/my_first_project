@@ -17,9 +17,11 @@ img {
     height: auto /*nao funcionou*/
 }
 
+section{
+    padding: 1%;
+}
+
 p{
     text-align: center;
-    font-family: 'Roboto';
     font-size: 14px;
-    margin: 2%;
 }
