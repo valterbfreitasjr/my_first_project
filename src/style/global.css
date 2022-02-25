@@ -10,18 +10,50 @@ body{
 
 h1 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 img {
     width: 100%;
-    height: auto /*nao funcionou*/
+    /*height: auto /*nao funcionou*/
+    height: 340px;
 }
 
 section{
-    padding: 1%;
+    padding: 3%;
 }
 
 p{
-    text-align: center;
+    text-align: left;
     font-size: 14px;
+    text-indent: 30px;      /*paragrafo primeira linha identacao*/
+    line-height: 25px;      /*espacamento entre as linhas*/
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    /*text-decoration: underline;   /*texto com underline*/
+}
+
+/*toda vez que tiver # 'e porque o estilo esta associado a um id*/
+#section1{
+    background-color: aquamarine;
+}
+
+
+#section2{
+    background-color: chartreuse;
+    padding: 0px;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+}
+
+div{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+div input{
+    height: 40px;
 }
