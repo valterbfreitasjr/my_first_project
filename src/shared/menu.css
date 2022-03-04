@@ -1,6 +1,6 @@
 li{
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
     display: inline;
     margin-right: 15px;
@@ -16,7 +16,7 @@ a{
 }
 
 a:hover{
-    color: yellow;
+    color: purple;
     text-decoration: underline;
 }
 
