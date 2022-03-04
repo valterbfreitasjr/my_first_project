@@ -57,3 +57,13 @@ div{
 div input{
     height: 40px;
 }
+
+iframe{
+    border: 0px;
+    height: 60px;
+}
+
+header{
+    background-color: black;
+    padding-top: 10px;
+}

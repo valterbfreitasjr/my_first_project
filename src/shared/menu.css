@@ -1,0 +1,25 @@
+li{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: red;
+}
