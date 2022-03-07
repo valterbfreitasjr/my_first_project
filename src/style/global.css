@@ -27,7 +27,7 @@ p{
     text-align: left;
     font-size: 14px;
     text-indent: 30px;      /*paragrafo primeira linha identacao*/
-    line-height: 25px;      /*espacamento entre as linhas*/
+    line-height: 25px;      /*espaçamento entre as linhas*/
     margin-bottom: 50px;
     letter-spacing: 1px;
     /*text-decoration: underline;   /*texto com underline*/
@@ -35,12 +35,12 @@ p{
 
 /*toda vez que tiver # 'e porque o estilo esta associado a um id*/
 #section1{
-    background-color: aquamarine;
+    background-color: rgba(244, 237, 250, 0.938);
 }
 
 
 #section2{
-    background-color: chartreuse;
+
     padding: 0px;
 }
 
@@ -60,10 +60,17 @@ div input{
 
 iframe{
     border: 0px;
-    height: 60px;
 }
 
 header{
     background-color: black;
     padding-top: 10px;
+}
+
+footer{
+    background-color: rgb(214, 212, 212);
+}
+
+header iframe{
+    height: 70px;
 }
