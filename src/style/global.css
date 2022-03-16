@@ -44,18 +44,38 @@ p{
     padding: 0px;
 }
 
+.divleft{
+    float: left;
+    width: 40%;
+}
+
+.divright{
+    float: right;
+    width: 60%;
+}
+
 .button{
     width: 200px;
     height: 40px;
 }
 
 div{
-    width: 100%;
-    margin-bottom: 15px;
+    width: 50%;
+    margin-bottom: 5px;
 }
 
-div input{
+div input, textarea{
     height: 40px;
+    width: 80%;
+}
+
+div textarea{
+    height: 150px;
+    width: 88%;
+}
+
+div label{
+    color: red;
 }
 
 iframe{
