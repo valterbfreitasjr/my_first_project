@@ -14,46 +14,27 @@
     </header>
     <section id="section1">
         <!-- Form para o botão "Enviar" na estrutura e citando o js criado-->
-        <form>
+        <form action="c">
             <div>
-                <label for="nome">Nome do meu Cliente:</label>
-                <input type="text" maxlength="30" name="nome" id="nome" />
+                <div class="divleft">
+                    <label for="nome">Nome do meu Cliente:</label><br/>
+                    <input type="text" maxlength="30" name="nome" id="nome" placeholder="Digite seu nome" />
+                </div>
+                <div class="divright">
+                    <label for="email">Email:</label><br/>
+                    <input type="email" maxlength="64" name="email" id="email" placeholder="Digite um email"/>
+                </div>  
+            </div> 
+            <div>
+                <label for="contato">Envie uma mensagem:</label><br/>
+                <textarea maxlength="300" name="contato" id="contato" placeholder="Talk with us"></textarea>
             </div>
-
-
-            <input type="button" value="Enviar" class="button" onclick="alertPage('Apertou o botao 1');" />
-
+            <div>
+                <input type="button" value="Enviar" class="button" onclick="alertPage('Apertou o botao 1');" />
+            </div>  
+            
             <!-- <input type="button" value="Receber" class="button" onclick="alertPage('Apertou o botao 2');" /> -->
         </form>
-    </section>
-    <section id="section2">
-        <p> <strong>Lorem Ipsum</strong> is <i>simply dummy</i> text of the printing and typesetting industry.
-            <strong>Lorem Ipsum</strong> has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing <strong>Lorem Ipsum</strong> passages, and more recently with desktop publishing
-            software like
-            Aldus PageMaker including versions of <strong>Lorem Ipsum</strong>.
-        </p>
-        <p> <strong>Lorem Ipsum</strong> is <i>simply dummy</i> text of the printing and typesetting industry.
-            <strong>Lorem Ipsum</strong> has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing <strong>Lorem Ipsum</strong> passages, and more recently with desktop publishing
-            software like
-            Aldus PageMaker including versions of <strong>Lorem Ipsum</strong>.
-        </p>
-        <p> <strong>Lorem Ipsum</strong> is <i>simply dummy</i> text of the printing and typesetting industry.
-            <strong>Lorem Ipsum</strong> has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing <strong>Lorem Ipsum</strong> passages, and more recently with desktop publishing
-            software like
-            Aldus PageMaker including versions of <strong>Lorem Ipsum</strong>.
-        </p>
     </section>
     <footer>
         <iframe src="../shared/footer.html"></iframe>
